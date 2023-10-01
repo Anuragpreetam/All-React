@@ -1,3 +1,5 @@
+import React from "react";
+import  ReactDOM  from "react-dom/client";
 const root = document.getElementById('root')
         
 //createElement method, takes in three arguments mainly
@@ -26,8 +28,8 @@ const root = document.getElementById('root')
 
 const nest = React.createElement("div",{id:'child'},
     [
-        React.createElement("h1",{id:'heading tag'},"This is nested"),
-        React.createElement("h2",{id:"h2"},"This is a sibling")  
+        React.createElement("h1",{id:'heading tag',key:'sibling-one'},"This is nested"),
+        React.createElement("h2",{id:"h2",key:'sibling-two'},"This is a sibling")  
     ] )   
 
 rootrender.render(nest)
