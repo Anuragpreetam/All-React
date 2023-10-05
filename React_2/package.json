@@ -1,0 +1,22 @@
+{
+  "name": "react_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anuragpreetam/All-React.git#main"
+  },
+  "author": "Anurag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anuragpreetam/All-React/issues"
+  },
+  "homepage": "https://github.com/Anuragpreetam/All-React/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
