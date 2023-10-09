@@ -1,0 +1,61 @@
+:root{
+    --primary-color:white;
+    --hovers:rgb(212, 0, 255);
+}
+
+.logo{
+    width: 30rem;
+    height: 30rem;
+    border: 1rem solid white;
+}
+.appName{
+    font-size: 100px;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+    color: var(--primary-color);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1rem solid wheat
+}
+
+.nav-links{
+   
+    font-size: 100px;
+    display: inline;
+    margin: 4rem;
+}
+
+.nav-container{
+    margin-top: 8rem;
+}
+.nav-links:hover{
+    background-color:var(--hovers);
+}
+
+.shop-container{
+    height: 200px;
+    padding: 5rem;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+
+.shop-description{
+    font-size: 200px;
+}
+.shop-card{
+    /* border: 1px solid var(--primary-color); */
+    margin: 1rem; 
+}
+
+.card-container:hover{
+    border: 1px solid var(--hovers);
+}
